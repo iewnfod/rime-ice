@@ -24,7 +24,7 @@ def solve_file(f: str, headline: int):
 				else:
 					pinyin_result = pinyin(l, style=Style.NORMAL, errors='default')
 					pinyin_str = ' '.join([item[0] for item in pinyin_result])
-					results.append(f"{l} {pinyin_str}")
+					results.append(f"{l}\t{pinyin_str}")
 					success += 1
 
 	with open(f, "w", encoding="utf-8") as file:
