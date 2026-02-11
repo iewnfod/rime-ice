@@ -4,10 +4,10 @@ patch:
 
   # 中文键盘空格键上会显示方案名称
   # （英文键盘的空格在主题的 `theme.yaml` 文件下的 `space: {label:` 处修改）
-  schema/name: rime-ice
+  schema/name: double_pinyin_flypy
 
   # 智能纠错（适用于全键盘全拼）
-  translator/enable_correction: true
+  translator/enable_correction: false
 
   key_binder:
     import_preset: default
